@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- this is a form -->
+    <form action="/action.php">
+      <div>
+        <label for="name">User name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <!-- <div>
+        <label for="search">youtube search:</label>
+        <input
+          type="text"
+          name="search_query"
+          id="search"
+          placeholder="search any think"
+        />
+      </div> -->
+      <div>
+        <input type="checkbox" name="sub" id="math" value="math" checked />
+        <label for="math">Math</label>
+        <br />
+        <input type="checkbox" name="sub" id="CS" value="CS" />
+        <label for="CS">CS</label>
+      </div>
+      <div>
+        <input type="radio" name="game" id="fc mobile" value="game" checked />
+        <label for="fc mobile">Fc mobile</label>
+        <br />
+        <input type="radio" name="game" id="cod" value="cod" />
+        <label for="cod">COD</label>
+      </div>
+      <label for="car">select you car:</label>
+      <select name="car" id="car">
+        <option selected>select you car</option>
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mg">Mg</option>
+      </select>
+      <br />
+      <label for="msg">give me review</label>
+      <textarea
+        name="msg"
+        id="msg"
+        placeholder="review"
+        rows="5"
+        cols="20"
+      ></textarea>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
