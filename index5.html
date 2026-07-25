@@ -125,7 +125,7 @@
         </tbody>
       </table>
     </footer>
-    <form action="https://www.youtube.com/results">
+    <!-- <form action="https://www.youtube.com/results">
       <div>
         <label for="youtube">Youtube Search</label>
         <input
@@ -137,6 +137,63 @@
         <button type="submit">search</button>
       </div>
       <button type="reset">reset</button>
+    </form> -->
+    <form action="/action">
+      <div>
+        <h3>What is your subject</h3>
+        <input type="checkbox" name="sub" id="Math" value="Math" />
+        <label for="Math">Math</label>
+        <input
+          type="checkbox"
+          name="sub"
+          id="CS"
+          value="Computer Science"
+          checked
+        />
+        <label for="CS">Computer Science</label>
+        <input type="checkbox" name="sub" id="Eng" value="English" />
+        <label for="Eng">English</label>
+      </div>
+      <div>
+        <h3>Are you 18+</h3>
+        <input type="radio" name="age" id="yes" value="yes,18+" checked />
+        <label for="yes">Yes</label>
+        <br />
+        <input type="radio" name="age" id="no" value="no,18+" />
+        <label for="no">No</label>
+      </div>
+      <div>
+        <label for="car">Select your car</label>
+        <select name="car" id="car">
+          <option selected>Select your car brand</option>
+          <option value="BMW">BMW</optin>
+          <option value="Audi">Audi</optin>
+          <option value="Tata">Tata</optin>
+        </select>
+      </div>
+      <br /><br /><br />
+      <div>
+        <label for="vol">select your volume</label>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          step="10"
+          value="50"
+          id="vol"
+          name="volume"
+        />
+      </div>
+      <div>
+        <textarea
+          name="review"
+          id="review"
+          placeholder="give me your review"
+          rows="5"
+          cols="20"
+        ></textarea>
+      </div>
+      <button type="submit">submit</button>
     </form>
   </body>
 </html>
