@@ -1,0 +1,29 @@
+* {
+  font-family: Papyrus;
+}
+
+#div1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type="text"]:hover {
+  background-color: blue;
+}
+
+div ul li {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+  font-size: 50px;
+}
+
+button:hover {
+  color: red;
+}
+
+div > h3:nth-of-type(even) {
+  color: red;
+}
