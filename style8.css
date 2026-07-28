@@ -39,3 +39,15 @@ div > h3:nth-of-type(even) {
 #myP::selection {
   background-color: yellow;
 }
+
+#formname {
+  background-color: blue !important;
+}
+
+div#formname > input {
+  background-color: inherit;
+}
+
+div#formname {
+  background-color: yellow;
+}
