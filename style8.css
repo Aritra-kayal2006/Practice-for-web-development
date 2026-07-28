@@ -27,3 +27,15 @@ button:hover {
 div > h3:nth-of-type(even) {
   color: red;
 }
+
+#myP::first-line {
+  color: red;
+}
+
+#myP::first-letter {
+  color: green;
+}
+
+#myP::selection {
+  background-color: yellow;
+}
