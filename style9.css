@@ -19,3 +19,53 @@ a {
   color: green;
   font-size: 20px;
 }
+
+#div1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type="text"]:hover {
+  background-color: blue;
+}
+
+div ul li {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+  font-size: 50px;
+}
+
+button:hover {
+  color: red;
+}
+
+div > h3:nth-of-type(even) {
+  color: red;
+}
+
+#myP::first-line {
+  color: red;
+}
+
+#myP::first-letter {
+  color: green;
+}
+
+#myP::selection {
+  background-color: yellow;
+}
+
+#formname {
+  background-color: blue !important;
+}
+
+div#formname > input {
+  background-color: inherit;
+}
+
+div#formname {
+  background-color: yellow;
+}
