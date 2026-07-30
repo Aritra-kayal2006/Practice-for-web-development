@@ -11,3 +11,15 @@
   margin: 20px;
   display: inline-block;
 }
+
+.outerdiv {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.innerdiv {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
