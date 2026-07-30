@@ -1,0 +1,25 @@
+.firstdiv,
+.numbertwo {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  border: 5px solid black;
+  border-left: 5px dotted red;
+  border-radius: 10px;
+  border-top-left-radius: 30px;
+  padding: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.outerdiv {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.innerdiv {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
