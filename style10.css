@@ -23,3 +23,19 @@
   width: 50%;
   background-color: red;
 }
+
+.outer1 {
+  font-size: 20px;
+}
+
+div {
+  font-size: 2em;
+}
+
+.outer2 {
+  font-size: 20px;
+}
+
+.inner {
+  font-size: 2rem;
+}
