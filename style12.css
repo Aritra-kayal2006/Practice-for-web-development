@@ -34,3 +34,17 @@
   transform: rotate(45deg) scale(2) translateY(100px) skew(45deg);
   background-color: green;
 }
+
+.div5 {
+  margin-top: 40px;
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  transition: all 1s ease-in-out 0.2s;
+}
+
+.div5:hover {
+  box-shadow: 5px 5px 10px aqua;
+  transform: translateY(-20px);
+}
