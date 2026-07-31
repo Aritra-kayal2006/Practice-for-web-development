@@ -11,3 +11,17 @@
   background-color: red;
   opacity: 0.5;
 }
+
+.div3 {
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  transition: 2s ease-in-out 0.2s;
+}
+
+.div3:hover {
+  border-radius: 50%;
+  background-color: green;
+}
