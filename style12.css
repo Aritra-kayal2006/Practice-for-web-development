@@ -56,3 +56,13 @@
   background-image: url("erik-mclean-ZRns2R5azu0-unsplash.jpg");
   background-size: cover;
 }
+
+.div7 {
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  background-color: orange;
+  position: relative;
+  top: 500px;
+  left: 500px;
+}
