@@ -48,3 +48,11 @@
   box-shadow: 5px 5px 10px aqua;
   transform: translateY(-20px);
 }
+
+.div6 {
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  background-image: url("erik-mclean-ZRns2R5azu0-unsplash.jpg");
+  background-size: cover;
+}
